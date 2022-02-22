@@ -1,0 +1,23 @@
+'''
+The objective of this program is to be able to convert miles to other units
+Input the set number of miles
+Convert the miles to various units like yards, feet, or inches
+Print out these conversions
+@author Jaqx
+
+miles = int(input("# of miles"))
+
+feet = miles * 5280
+
+print(str(miles) + "miles" + "converts to" + str(feet) + "feet")
+
+
+
+yards = miles * 1760
+
+print(str(miles) + "miles" + "converts to" + str(yards) + "yards")
+
+
+
+inches = miles * 63,360
+print(str(miles) + "miles" + "converts to" + str(inches) + "inches")
